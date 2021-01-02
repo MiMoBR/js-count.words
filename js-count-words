@@ -1,0 +1,6 @@
+const textArea = document.querySelector("idOfTextArea");
+
+textArea.addEventListener("input",(e) => {
+    const noOfWords = e.target.value.split(" ").length;
+    console.log(noOfWords);
+})
